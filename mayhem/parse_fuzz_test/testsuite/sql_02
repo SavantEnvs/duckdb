@@ -1,0 +1,1 @@
+SELECT * FROM range(10) t(i) WHERE i % 2 = 0 ORDER BY i DESC LIMIT 3

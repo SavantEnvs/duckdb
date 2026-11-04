@@ -1,0 +1,1 @@
+SELECT unnest([1,2,3]), unnest(['a','b','c'])

@@ -1,0 +1,9 @@
+project: savantenvs/duckdb
+target: parse_fuzz_test
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/parse_fuzz_test/testsuite
+cmds:
+  - cmd: /mayhem/parse_fuzz_test
+    libfuzzer: true
+    timeout: 30

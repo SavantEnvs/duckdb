@@ -1,0 +1,1 @@
+SELECT * FROM (VALUES (1,'a')) t(i,s) PIVOT (sum(i) FOR s IN ('a'))

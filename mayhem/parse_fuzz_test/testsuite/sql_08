@@ -1,0 +1,1 @@
+SELECT regexp_extract('foo123bar', '([0-9]+)'), strftime(TIMESTAMP '2020-01-02 03:04:05', '%Y-%m-%d')
